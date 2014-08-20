@@ -1,0 +1,22 @@
+<Dictionary x:TypeArguments="x:String, IDictionary(x:String, x:Object)" xmlns="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:mvad="clr-namespace:Microsoft.VisualStudio.ApplicationServer.Design;assembly=Microsoft.VisualStudio.ApplicationServer" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Dictionary x:TypeArguments="x:String, x:Object" x:Key="CloudSpotter.CloudSpotter.CloudSpotterWeb">
+    <mvad:DesignTimeServiceData x:Key="ComponentData" ProjectName="CloudSpotterWeb" />
+    <x:Boolean x:Key="IsInitialized">True</x:Boolean>
+  </Dictionary>
+  <Dictionary x:TypeArguments="x:String, x:Object" x:Key="CloudSpotter.SchedulerContainerStateFull.SpotScheduler">
+    <mvad:DesignTimeServiceData x:Key="ComponentData" />
+    <x:Boolean x:Key="IsInitialized">True</x:Boolean>
+  </Dictionary>
+  <Dictionary x:TypeArguments="x:String, x:Object" x:Key="CloudSpotter.RenderServiceContainer.RenderService">
+    <mvad:DesignTimeServiceData x:Key="ComponentData" ProjectName="RenderService" RelativeFilePath="RenderService.cs" />
+    <x:Boolean x:Key="IsInitialized">True</x:Boolean>
+  </Dictionary>
+  <Dictionary x:TypeArguments="x:String, x:Object" x:Key="CloudSpotter.SpotServiceContainer.SpotService">
+    <mvad:DesignTimeServiceData x:Key="ComponentData" ProjectName="SpotService" RelativeFilePath="SpotService.cs" />
+    <x:Boolean x:Key="IsInitialized">True</x:Boolean>
+  </Dictionary>
+  <Dictionary x:TypeArguments="x:String, x:Object" x:Key="CloudSpotter.Web1.CloudExperienceWeb">
+    <mvad:DesignTimeServiceData x:Key="ComponentData" ProjectName="CloudExperienceWeb" />
+    <x:Boolean x:Key="IsInitialized">True</x:Boolean>
+  </Dictionary>
+</Dictionary>

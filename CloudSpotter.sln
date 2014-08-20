@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudSpotter", "CloudSpotter\CloudSpotter.csproj", "{24C2DF19-2504-4F27-8021-E70C52792093}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4E3D76E-19C7-4EF0-9166-7799AECE8915} = {D4E3D76E-19C7-4EF0-9166-7799AECE8915}
+		{34D94976-37F0-4AD4-8861-457FA8276034} = {34D94976-37F0-4AD4-8861-457FA8276034}
+		{5375C89A-13F4-4A74-B733-562B7A407B5D} = {5375C89A-13F4-4A74-B733-562B7A407B5D}
+		{BA508D9E-BFC3-4800-8ABE-A1A5095A66B7} = {BA508D9E-BFC3-4800-8ABE-A1A5095A66B7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderService", "RenderService1\RenderService.csproj", "{5375C89A-13F4-4A74-B733-562B7A407B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotService", "SpotService1\SpotService.csproj", "{BA508D9E-BFC3-4800-8ABE-A1A5095A66B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudSpotterWeb", "CloudSpotterWeb1\CloudSpotterWeb.csproj", "{D4E3D76E-19C7-4EF0-9166-7799AECE8915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudExperienceWeb", "CloudExperienceWeb\CloudExperienceWeb.csproj", "{34D94976-37F0-4AD4-8861-457FA8276034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C2DF19-2504-4F27-8021-E70C52792093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C2DF19-2504-4F27-8021-E70C52792093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C2DF19-2504-4F27-8021-E70C52792093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C2DF19-2504-4F27-8021-E70C52792093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5375C89A-13F4-4A74-B733-562B7A407B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5375C89A-13F4-4A74-B733-562B7A407B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5375C89A-13F4-4A74-B733-562B7A407B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5375C89A-13F4-4A74-B733-562B7A407B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA508D9E-BFC3-4800-8ABE-A1A5095A66B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA508D9E-BFC3-4800-8ABE-A1A5095A66B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA508D9E-BFC3-4800-8ABE-A1A5095A66B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA508D9E-BFC3-4800-8ABE-A1A5095A66B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E3D76E-19C7-4EF0-9166-7799AECE8915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E3D76E-19C7-4EF0-9166-7799AECE8915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E3D76E-19C7-4EF0-9166-7799AECE8915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E3D76E-19C7-4EF0-9166-7799AECE8915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D94976-37F0-4AD4-8861-457FA8276034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D94976-37F0-4AD4-8861-457FA8276034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D94976-37F0-4AD4-8861-457FA8276034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D94976-37F0-4AD4-8861-457FA8276034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

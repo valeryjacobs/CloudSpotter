@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Cloud spotter";
+}
+<style type="text/css">
+    .outerDivBg
+    {
+        background-color: #FFFFFF;
+        opacity: .8;
+        margin: 0px auto;
+    }
+    
+    
+    .galleryitem
+    {
+        margin: 10px;
+        text-align: center;
+        font-size:larger;
+        font-weight:bold;
+        width: 250px;
+        float: left;
+        color: #000000;
+    }
+</style>
+<br /><br /><br />
+<h2>@ViewBag.Message</h2><br /><br />
+@foreach (Tuple<string, string> s in ViewBag.URLs)
+{  
+    <div class="galleryitem">
+        <a href="@s.Item1" class="img">
+            <img width="250" src="@s.Item1" title="" border="0" /></a><br />
+        @s.Item2
+        <br />
+    </div>
+}

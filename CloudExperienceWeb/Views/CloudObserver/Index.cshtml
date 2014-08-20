@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+
+<br /><br /><br />
+<h2>Observer</h2><br />
+<style type="text/css">     
+            .outerDivBg{ background-color:#FFFFFF;    opacity:.8;     margin:0px auto;    } 
+       </style>
+
+<div class="outerDivBg">
+<table>
+    <tr><th>City</th><th>Camera id</th><th>Latitude</th><th>Longitude</th><th>Observed</th><th>Image taken</th></tr>
+    @foreach (CloudObserver.CloudObservation o in ViewBag.Observations)
+    {
+        <tr>
+            <td>@o.City</td>
+            <td>@o.CameraId</td> 
+            <td>@o.Lat</td>
+            <td>@o.Long</td>
+            <td>@o.ObservationTimeStamp</td>
+            <td>@o.ImageTimeStamp</td>
+        </tr>
+    }
+</table>
+</div>
+  
